@@ -1,5 +1,8 @@
 apply plugin: 'java-library'
-apply from: '../gradle_scripts/publish_maven.gradle'
+
+
+group = "com.murijr"
+version = "0.1.1-SNAP"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -7,3 +10,5 @@ dependencies {
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
+
+apply from: '../gradle_scripts/publish_package_cloud.gradle'
