@@ -1,4 +1,5 @@
 apply plugin: 'java-library'
+apply from: '../gradle_scripts/publish_maven.gradle'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
