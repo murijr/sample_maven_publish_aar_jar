@@ -1,3 +1,0 @@
-[submodule "gradle_scripts"]
-	path = gradle_scripts
-	url = https://github.com/murijr/common_gradle_scripts.git
