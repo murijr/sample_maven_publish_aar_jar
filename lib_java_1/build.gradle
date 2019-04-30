@@ -12,3 +12,4 @@ sourceCompatibility = "7"
 targetCompatibility = "7"
 
 apply from: '../gradle_scripts/publish_package_cloud.gradle'
+apply from: '../gradle_scripts/git_release.gradle'

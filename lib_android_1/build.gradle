@@ -35,3 +35,4 @@ group = "com.murijr"
 version = "0.1.3-SNAP"
 
 apply from: '../gradle_scripts/publish_package_cloud.gradle'
+apply from: '../gradle_scripts/git_release.gradle'
